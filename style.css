@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+  nav{
+    height: 70px;
+    width: 395px;
+  }
+  nav ul{
+    float: left;
+    margin-right: 30px;
+  }
+
+  nav ul li a {
+    border: rgb(59, 59, 59);
+    color: rgb(41, 187, 231);
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #bceaff;
+    transition: .5s;
+  }
+
+  nav ul ul{
+    margin-left: 100px;
+    position: absolute;
+    top: 85px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  nav ul li:hover > ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s ease;
+  }
+  nav ul ul li{
+
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #3ea9db;
+    border-top: none;
+  }
+
+  nav ul ul li:hover{
+    background-color: #17a3e4;
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #0073a8;
+    border-top: none;
+  }
+
+ 
+  nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 50px;
+  }
+
+  .productTwo {
+      background: #afe6ff;
+  }
+  .productTwo:hover{
+      background-color: #015c86;
+      color: white;
+  }
+
+  .subProduct {
+      background: #9bdfff;
+      color: white;
+  }
+
+  .subProducts:hover {
+    background: #015c86;
+    color: white;
+  }
+
+
